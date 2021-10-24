@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Desafio Gama Academy</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1>Cadastro de Usuário</h1>
+      <div class="dados-usuario inputs-container">
+        <h2>Dados Pessoais</h2>
+        <div class="form-field">
+          <label for="nome" class="inp">
+            <input
+              type="text"
+              id="nome"
+              required
+              name="nome"
+              placeholder="&nbsp;"
+            />
+            <span class="label">Nome ( * )</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+        <div class="form-field">
+          <label for="CPF" class="inp">
+            <input
+              type="number"
+              id="CPF"
+              required
+              name="CPF"
+              placeholder="&nbsp;"
+            />
+            <span class="label">CPF ( * )</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+        <div class="form-field">
+          <label for="RG" class="inp">
+            <input type="number" id="RG" name="RG" placeholder="&nbsp;" />
+            <span class="label">RG </span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+        <div class="sexo-select-container">
+          <span class="sexo-span">Sexo:</span>
+          <div>
+            <input
+              type="radio"
+              id="sexoMasculino"
+              name="sexo"
+              value="M"
+              checked
+            />
+            <label for="huey">M</label>
+          </div>
+          <div>
+            <input type="radio" id="sexoFeminino" name="sexo" value="F" />
+            <label for="sexo-feminino">F</label>
+          </div>
+        </div>
+
+        <small> Os campos marcados com ( * ) são obrigatórios </small>
+      </div>
+
+      <div class="endereco inputs-container">
+        <h2>Dados Endereço</h2>
+        <div class="form-field">
+          <label for="endereco" class="inp">
+            <input
+              type="text"
+              id="endereco"
+              name="endereco"
+              placeholder="&nbsp;"
+              required
+            />
+            <span class="label">Endereço ( * )</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+        <div class="form-field">
+          <label for="numero" class="inp">
+            <input
+              type="number"
+              id="numero"
+              name="numero"
+              placeholder="&nbsp;"
+              required
+            />
+            <span class="label">Numero ( * )</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label for="bairro" class="inp">
+            <input type="text" id="bairro" name="bairro" placeholder="&nbsp;" />
+            <span class="label">Bairro</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label for="cidade" class="inp">
+            <input type="text" id="cidade" name="cidade" placeholder="&nbsp;" />
+            <span class="label">Cidade</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label for="estado" class="inp">
+            <input type="text" id="estado" name="estado" placeholder="&nbsp;" />
+            <span class="label">Estado</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label for="CEP" class="inp">
+            <input type="number" id="CEP" name="CEP" placeholder="&nbsp;" />
+            <span class="label">CEP</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+        <small> Os campos marcados com ( * ) são obrigatórios </small>
+      </div>
+
+      <div class="telefone inputs-container">
+        <h2>Telefones</h2>
+        <div class="form-field">
+          <label for="telefone-fixo" class="inp">
+            <input
+              type="number"
+              id="telefone-fixo"
+              name="telefone-fixo"
+              placeholder="&nbsp;"
+            />
+            <span class="label">Telefone Fixo</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label for="telefone-celular" class="inp">
+            <input
+              type="number"
+              id="telefone-celular"
+              name="telefone-celular"
+              required
+              placeholder="&nbsp;"
+            />
+            <span class="label">Telefone Celular ( * )</span>
+            <span class="focus-bg"></span>
+          </label>
+        </div>
+      </div>
+      <small> Os campos marcados com ( * ) são obrigatórios </small>
+      <button class="button" id="submitButton" type="submit">Cadastrar</button>
+    </form>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
