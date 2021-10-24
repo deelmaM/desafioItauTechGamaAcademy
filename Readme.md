@@ -1,7 +1,7 @@
 # Desafio Form de Cadastro Pessoal - Gama Academy
 
 #### Autores
-- [Matheus Rodrigues](https://github.com/matheus-rodrigues00)
+- [Delma](https://github.com/deelmaM)
 
 <img src="./projectScreenshot.png" alt="Screenshot do projeto">
 
